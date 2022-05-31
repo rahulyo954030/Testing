@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Tests should match snpshopt 1`] = `
+Object {
+  "instance": null,
+  "nodeType": "component",
+  "props": Object {
+    "children": "Add Counter",
+    "colorScheme": "green",
+    "variant": "ghost",
+  },
+  "rendered": Object {
+    "instance": null,
+    "nodeType": "host",
+    "props": Object {
+      "children": <button
+        className="btn green ghost"
+        data-testid="cButton"
+      >
+        Add Counter
+      </button>,
+    },
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Add Counter",
+          "className": "btn green ghost",
+          "data-testid": "cButton",
+          "onClick": undefined,
+        },
+        "rendered": Array [
+          "Add Counter",
+        ],
+        "type": "button",
+      },
+    ],
+    "type": "div",
+  },
+  "type": [Function],
+}
+`;
